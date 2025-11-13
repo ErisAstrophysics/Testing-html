@@ -1,0 +1,30 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color:black;
+    color:greenyellow;
+    text-align:center;
+}
+
+h1{
+    background-color: magenta;
+}
+
+p, ul, ol {
+    line-height: 2;
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto 1em auto;
+}
+
+table {
+    text-align: left;
+    background-color: magenta;
+    color: greenyellow;
+    margin: 0 auto 10px auto;
+    width: 70%;
+}
+
+
+ul, ol {
+    padding-left: 100px;
+}
