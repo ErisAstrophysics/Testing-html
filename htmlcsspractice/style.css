@@ -1,13 +1,18 @@
-body {
-    font-family:'Courier New', Courier, monospace;
-    background-color:black;
-    color:greenyellow;
-    text-align:center;
+h1{
+    width: 100%;
+    position:center;
+    text-align: center;
 }
 
-h1{
-    background-color: magenta;
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color:gray;
+    color:greenyellow;
+    text-align:center;
+    background-image: url("backgroundspace.jpeg");
+    cursor: url("cursor.png") 16 16, auto;
 }
+
 
 p, ul, ol {
     line-height: 2;
@@ -17,14 +22,26 @@ p, ul, ol {
 }
 
 table {
-    text-align: left;
-    background-color: magenta;
+    text-align: center;
     color: greenyellow;
     margin: 0 auto 10px auto;
-    width: 70%;
+    width: 50%;
 }
 
 
 ul, ol {
     padding-left: 100px;
+}
+
+th, td {
+    border: 1px, solid, greenyellow;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: magenta;
+    cursor: url("handcursor1.png") 16 16, auto;
 }
